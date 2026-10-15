@@ -139,25 +139,22 @@ function togliPrimoEUltimo(testo) {
 
 console.log(togliPrimoEUltimo("EPICODE")); // "PICOD"
 
-/* ESERCIZIO 10 — dammiCasuali
-   Funzione dammiCasuali(n): ritorna un array di n numeri interi casuali tra 0 e 10 (inclusi).
-   Usa Math.random e Math.floor.
-*/
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
-/* --EXTRA-- ESERCIZIO 11 — etaInGiorni
-   ...
-*/
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 10 — dammiCasuali
    Funzione dammiCasuali(n): ritorna un array di n numeri interi casuali tra 0 e 10 (inclusi).
    Usa Math.random e Math.floor.
 */
+
+function dammiCasuali(n) {
+  let numeri = [];
+  for (let i = 0; i < n; i++) {
+    let casuale = Math.floor(Math.random() * 11);
+    numeri.push(casuale);
+  }
+  return numeri;
+}
+
+console.log(dammiCasuali(5));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 

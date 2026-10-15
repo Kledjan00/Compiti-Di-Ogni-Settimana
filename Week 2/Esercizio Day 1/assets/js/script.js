@@ -11,8 +11,6 @@ REGOLE
    Stampa con un template literal: "Ciao, mi chiamo Mario Rossi."
 */
 
-
-
 const nome = "Kledjan";
 const cognome = "Lleshi";
 console.log('Ciao, mi chiamo ${nome} ${cognome}.');
@@ -23,7 +21,7 @@ console.log('Ciao, mi chiamo ${nome} ${cognome}.');
    somma, differenza, prodotto, divisione, resto (%), elevamento (**).
 */
 
-let a= 12;
+let a = 12;
 let b = 2;
 console.log('${a} + ${b} = ${a + b}');
 console.log('${a} - ${b} = ${a - b}');
