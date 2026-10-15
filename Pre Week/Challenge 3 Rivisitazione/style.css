@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+
+.boo{ margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    }
+
+.main-section{
+    padding: 20px;
+   }
+
+.image{ height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image1{background-image: url(https://cdn.britannica.com/02/152202-050-4D73E046/Leaning-Tower-of-Pisa-cathedral-Italy.jpg);}
+.image2{background-image: url(https://duomo.firenze.it/application/mediaArchive/Image/4aebb5b3dd96ff6981ab71b6bfdb48b5_Firenze,%20Battistero_AQ09299.jpg);}
+.image3{background-image: url(https://www.visittuscany.com/shared/visittuscany/immagini/camposanto-monumentale-piazza-miracoli-pisa.jpg);}
+.image4{background-image: url(https://c8.alamy.com/compde/2mdf8ex/blick-auf-hauptgang-altar-und-marmorboden-im-dom-cattedrale-di-santa-maria-assunta-in-neapel-neapel-italien-italien-2mdf8ex.jpg);}
+.image5{background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4b/Villa_Basilica_-_pieve_di_Santa_Maria_Assunta_-_2026-09-26_08-41-47_008.JPG");}
+.image6{background-image: url(https://tse4.mm.bing.net/th/id/OIP.rQI1KBg6ATxCMyfr9R2aWQHaFa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);}
+
+h1{ font-family: "Prata", serif;
+font-size: 64px;
+font-weight: 400;
+margin-bottom: 0;
+}
+
+h3{font-family: "Prata", serif;
+font-size: 24px;
+font-weight: 400;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+a{font-weight: 400;
+    text-decoration: none;
+    color: rgb(2, 2, 194);   
+}
+
+.nome{ font-style: italic;
+    font-weight: 600;
+}
+
+h6{ color: white;
+    padding: 22px;
+margin-bottom: 0px;
+margin-top: 56px;
+border-radius: 6px;
+background: linear-gradient(120deg , rgb(2, 2, 194), rgb(119, 244, 255));
+}
+.lista{ text-align: left; 
+    padding: 0px;
+    list-style: none;
+}
+
+li{ padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+      
+}
+
+#schermata{ text-align: center;
+    color: white;
+    font-size: 25px;
+    
+   }
+
+   footer{background-color: black;
+padding: 16px;
+
+   }

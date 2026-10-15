@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    margin: 0;
+}
+
+.corpo {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(237, 237, 234);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ---------- HEADER ---------- */
+#img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.35)), url("./sfondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    border-bottom: 2px solid gold;
+    padding: 80px 20px;
+}
+
+#Kledjan-Lleshi {
+    color: white;
+    margin: 0 0 10px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+#stud {
+    color: #ff7a7a;
+    margin: 0 0 20px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+#gold ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gold li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+#gold a {
+    color: gold;
+    text-decoration: none;
+}
+
+#gold a:hover {
+    color: white;
+}
+
+/* ---------- SEZIONI ---------- */
+#presentazione,
+#compet,
+#exxp,
+#project,
+#cont {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#presentazione {
+    overflow: auto;
+}
+
+#presentazione p:first-of-type {
+    color: #1F3D7A;
+}
+
+#presentazione p:first-of-type::first-letter {
+    font-size: 2em;
+}
+
+#foto {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-image: url("./kledi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid gold;
+}
+
+h2 {
+    color: #1F3D7A;
+}
+
+h2::before {
+    content: "--";
+    color: gold;
+}
+
+#compet li:first-of-type {
+    font-weight: bold;
+}
+
+#ricet {
+    background-color: rgb(255, 246, 239);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#card {
+    margin-top: 20px;
+}
+
+/* ---------- TABELLA ---------- */
+.tabella-wrap {
+    overflow-x: auto;
+}
+
+#tabella {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* ---------- FORM ---------- */
+fieldset {
+    min-width: 0;
+}
+
+label {
+    display: block;
+    color: #1F3D7A;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+.check {
+    margin-top: 15px;
+}
+
+.check input,
+.check label {
+    display: inline;
+    vertical-align: middle;
+}
+
+.check label {
+    margin: 0 0 0 5px;
+}
+
+#bot {
+    margin-top: 20px;
+}
+
+#sendForm {
+    background-color: hsl(220, 60%, 30%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+#sendForm:hover {
+    background-color: hsl(220, 60%, 45%);
+}
+
+/* ---------- FOOTER ---------- */
+#cont nav {
+    margin-top: 20px;
+}
+
+#fondo {
+    background-color: #172136;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 600px) {
+    #img {
+        padding: 50px 10px;
+    }
+
+    #gold li {
+        margin: 5px 8px;
+    }
+
+    #presentazione,
+    #compet,
+    #exxp,
+    #project,
+    #cont {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #foto {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 20px;
+    }
+
+    #sendForm {
+        width: 100%;
+    }
+}
