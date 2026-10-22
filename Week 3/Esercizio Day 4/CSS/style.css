@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	color: #1b2845;
+}
+
+.contenitore {
+	max-width: 845px;
+	margin: 0 auto;
+	padding: 50px 0 40px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.2rem;
+	margin-bottom: 28px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: 10px 0 14px;
+}
+
+/* ultimo numero estratto */
+.numero-grande {
+	height: 110px;
+	line-height: 110px; /* stessa altezza del box  */
+	font-size: 5.5rem;
+	font-weight: 700;
+	color: #0b5fc4;
+}
+
+/* bottoni */
+.bottoni {
+	margin: 20px 0 14px;
+}
+
+button {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 14px 28px;
+	font-family: inherit;
+	font-size: 1rem;
+	color: #1b2845;
+	background-color: #ffffff;
+	border: 1px solid #1b2845;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #1b2845;
+	color: #ffffff;
+}
+
+/* quando i numeri sono finiti il bottone non si può più usare */
+button:disabled {
+	background-color: #ffffff;
+	color: #1b2845;
+	opacity: 0.4;
+	cursor: default;
+}
+
+/* cronologia */
+.testo-cronologia {
+	color: #6b6f7d;
+	margin-bottom: 20px;
+}
+
+/* tabellone: 10 celle per riga, poi vanno a capo da sole */
+.cella {
+	display: inline-block;
+	/* 100% / 10 meno lo spazio dei margini (5px) e un po' di margine di sicurezza */
+	width: calc(100% / 10 - 5.2px);
+	margin: 2.5px;
+	height: 46px;
+	line-height: 46px;
+	background-color: #f0f0f3;
+	color: #333333;
+	border-radius: 4px;
+}
+
+.cella.estratta {
+	background-color: #0b5fc4;
+	color: #ffffff;
+	font-weight: 700;
+}

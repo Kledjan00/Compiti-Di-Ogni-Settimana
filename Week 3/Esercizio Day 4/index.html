@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tombola</title>
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<script type="module" src="./JS/script.js"></script>
+	</head>
+	<body>
+		<div class="contenitore">
+			<main>
+				<h1>Tombola</h1>
+
+				<!-- ultimo numero estratto -->
+				<p>Ultimo estratto:</p>
+				<div id="numero-estratto" class="numero-grande">—</div>
+
+				<!-- bottoni -->
+				<div class="bottoni">
+					<button id="bottone-estrai">Estrai numero</button>
+					<button id="bottone-ricomincia">Ricomincia</button>
+				</div>
+
+				<!-- ultimi numeri estratti -->
+				<h2>Cronologia</h2>
+				<p id="cronologia" class="testo-cronologia">Nessun numero estratto.</p>
+
+				<!-- tabellone con i 90 numeri -->
+				<h2>Tabellone</h2>
+				<div id="tabellone"></div>
+			</main>
+		</div>
+	</body>
+</html>
